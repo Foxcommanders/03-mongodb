@@ -1,3 +1,4 @@
+
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
@@ -7,6 +8,7 @@ const dotenv = require("dotenv").config();
 const { DB_HOST } = process.env;
 
 const contactsRouter = require("./routes/contactsRouter");
+
 
 const app = express();
 
